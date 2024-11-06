@@ -1,0 +1,15 @@
+{
+    "name": "Codespace Configuration",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "extensions": [
+        "ms-vscode.powershell",
+        "ms-azuretools.vscode-azurecli",
+        "ms-azuretools.vscode-bicep",
+        "ms-vscode.azurecli",
+        "ms-python.python",
+        "ms-vscode.promptflow"
+    ],
+    "postCreateCommand": "pwsh -c 'Install-Module -Name Az -Scope CurrentUser -Force'"
+}
